@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DressShop</title>
+  <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <!-- Logo -->
+      <div class="logo">
+        <a href="#">GRAYDER<span>STORES</span></a>
+      </div>
+
+      <!-- Navigation -->
+       
+        <nav>
+          <ul class="slidebar">
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"></a></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick=hidesilidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Home</a></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="Shop.html">Shop</a></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">New Arrivals</a></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Offers</a></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">About Us</a></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="contacts.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="Shop.html">Shop</a></li>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Offers</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="contacts.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Icons -->
+      <div class="header-icons">
+        <input type="text" class="search-bar" placeholder="Search...">
+        <a href="#" class="icon">👤</a>
+        <a href="#" class="icon cart-icon">🛒<span class="cart-count">3</span></a>
+      </div>
+
+      <!-- Mobile Menu Icon -->
+      <div class="mobile-menu-icon" onclick=showslidebar()>
+        ☰
+      </div>
+    </div>
+  </header>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Style That Speaks</h1>
+        <p>Discover the latest trends and redefine your wardrobe with our exclusive collections.</p>
+        <div class="hero-buttons">
+          <a href="#" class="btn">Shop Now</a>
+          <a href="#" class="btn secondary-btn">Explore Trends</a>
+        </div>
+      </div>
+    </section>
+    <!-- Highlighted Features Section -->
+    <section class="features">
+      <div class="container">
+        <h2>Why Shop With Us?</h2>
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="feature-icon">🚚</div>
+            <h3>Free Shipping</h3>
+            <p>Enjoy free shipping on all orders over $50.</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🔒</div>
+            <h3>Secure Payments</h3>
+            <p>Shop confidently with our secure payment options.</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🔄</div>
+            <h3>Easy Returns</h3>
+            <p>Hassle-free returns within 30 days of purchase.</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">📞</div>
+            <h3>24/7 Support</h3>
+            <p>We're here to help you anytime, day or night.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Featured Categories Section -->
+  <section class="categories">
+    <div class="container">
+      <h2>Shop by Category</h2>
+      <div class="categories-grid">
+        <div class="category-item">
+          <img src="https://via.placeholder.com/300x300" alt="Dresses">
+          <h3>Dresses</h3>
+        </div>
+        <div class="category-item">
+          <img src="https://via.placeholder.com/300x300" alt="Accessories">
+          <h3>Accessories</h3>
+        </div>
+        <div class="category-item">
+          <img src="https://via.placeholder.com/300x300" alt="Shoes">
+          <h3>Shoes</h3>
+        </div>
+        <div class="category-item">
+          <img src="https://via.placeholder.com/300x300" alt="Bags">
+          <h3>Bags</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Best Sellers Section -->
+  <section class="best-sellers">
+    <div class="container">
+      <h2>Best Sellers</h2>
+      <div class="products-grid">
+        <div class="product-item">
+          <img src="https://via.placeholder.com/300x400" alt="Product 1">
+          <h3>Elegant Dress</h3>
+          <p>$49.99</p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+        <div class="product-item">
+          <img src="https://via.placeholder.com/300x400" alt="Product 2">
+          <h3>Classic Handbag</h3>
+          <p>$89.99</p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+        <div class="product-item">
+          <img src="https://via.placeholder.com/300x400" alt="Product 3">
+          <h3>Stylish Heels</h3>
+          <p>$59.99</p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+        <div class="product-item">
+          <img src="https://via.placeholder.com/300x400" alt="Product 4">
+          <h3>Chic Jacket</h3>
+          <p>$129.99</p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- New Arrivals Section -->
+<section class="new-arrivals">
+  <div class="container">
+    <h2>New Arrivals</h2>
+    <div class="arrivals-grid">
+      <div class="arrival-item">
+        <img src="https://via.placeholder.com/300x400" alt="Product 1">
+        <h3>Floral Summer Dress</h3>
+        <p>$59.99</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+      <div class="arrival-item">
+        <img src="https://via.placeholder.com/300x400" alt="Product 2">
+        <h3>Elegant Evening Gown</h3>
+        <p>$149.99</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+      <div class="arrival-item">
+        <img src="https://via.placeholder.com/300x400" alt="Product 3">
+        <h3>Trendy Handbag</h3>
+        <p>$89.99</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+      <div class="arrival-item">
+        <img src="https://via.placeholder.com/300x400" alt="Product 4">
+        <h3>Classic Heels</h3>
+        <p>$79.99</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Seasonal Offers Section -->
+<section class="seasonal-offers">
+  <div class="container">
+    <h2>Seasonal Offers</h2>
+    <div class="offers-grid">
+      <div class="offer-item">
+        <img src="https://via.placeholder.com/300x400" alt="Offer 1">
+        <h3>Summer Sale</h3>
+        <p><span class="original-price">$69.99</span> $49.99</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+      <div class="offer-item">
+        <img src="https://via.placeholder.com/300x400" alt="Offer 2">
+        <h3>Winter Clearance</h3>
+        <p><span class="original-price">$129.99</span> $99.99</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+      <div class="offer-item">
+        <img src="https://via.placeholder.com/300x400" alt="Offer 3">
+        <h3>Festive Collection</h3>
+        <p><span class="original-price">$89.99</span> $69.99</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+      <div class="offer-item">
+        <img src="https://via.placeholder.com/300x400" alt="Offer 4">
+        <h3>Spring Special</h3>
+        <p><span class="original-price">$79.99</span> $59.99</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="testimonials">
+  <div class="container">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-item">
+        <p class="quote">
+          "Absolutely love the quality of the dresses! Delivery was super fast and the packaging was beautiful. Highly recommend!"
+        </p>
+        <div class="customer-info">
+          <img src="https://via.placeholder.com/100" alt="Customer 1">
+          <h3>Jane Doe</h3>
+          <span>Verified Buyer</span>
+        </div>
+      </div>
+      <div class="testimonial-item">
+        <p class="quote">
+          "The customer service was excellent. They helped me pick the perfect size, and the dress fits like a dream!"
+        </p>
+        <div class="customer-info">
+          <img src="https://via.placeholder.com/100" alt="Customer 2">
+          <h3>John Smith</h3>
+          <span>Verified Buyer</span>
+        </div>
+      </div>
+      <div class="testimonial-item">
+        <p class="quote">
+          "Amazing seasonal offers! Got the best deals during the Summer Sale. Will definitely shop here again."
+        </p>
+        <div class="customer-info">
+          <img src="https://via.placeholder.com/100" alt="Customer 3">
+          <h3>Emily Clark</h3>
+          <span>Verified Buyer</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- Instagram Feed Section -->
+ <section class="instagram-feed">
+  <div class="container">
+    <h2>Follow Us on Instagram</h2>
+    <div class="feed-grid">
+      <div class="feed-item">
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="https://via.placeholder.com/300" alt="Instagram Post 1">
+        </a>
+      </div>
+      <div class="feed-item">
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="https://via.placeholder.com/300" alt="Instagram Post 2">
+        </a>
+      </div>
+      <div class="feed-item">
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="https://via.placeholder.com/300" alt="Instagram Post 3">
+        </a>
+      </div>
+      <div class="feed-item">
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="https://via.placeholder.com/300" alt="Instagram Post 4">
+        </a>
+      </div>
+      <div class="feed-item">
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="https://via.placeholder.com/300" alt="Instagram Post 5">
+        </a>
+      </div>
+      <div class="feed-item">
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="https://via.placeholder.com/300" alt="Instagram Post 6">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Newsletter Subscription Section -->
+<section class="newsletter">
+  <div class="container">
+    <h2>Stay Updated</h2>
+    <p>Subscribe to our newsletter and never miss out on our latest collections, offers, and updates.</p>
+    <form class="subscription-form">
+      <input type="email" placeholder="Enter your email address" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+</section>
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <!-- Social Media Links -->
+      <div class="footer-column">
+        <h3>Follow Us</h3>
+        <ul class="social-links">
+          <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+          <li><a href="#"><i class="fab fa-pinterest"></i> Pinterest</a></li>
+        </ul>
+      </div>
+      <!-- Quick Links -->
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul class="quick-links">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Returns</a></li>
+        </ul>
+      </div>
+      <!-- Contact Info -->
+      <div class="footer-column">
+        <h3>Contact Us</h3>
+        <ul class="contact-info">
+          <li><i class="fas fa-phone"></i> +91 9803916916</li>
+          <li><i class="fas fa-envelope"></i> support@onlinestore.com</li>
+          <li><i class="fas fa-map-marker-alt"></i>pattambi koppam, palakad, india</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Online Dress Store. All rights reserved web developer Abhishek.</p>
+    </div>
+  </div>
+</footer>
+<script>
+
+  function showslidebar(){
+    const slidebar = document.querySelector('.slidebar')
+    slidebar.style.display = "flex"
+  }
+
+  function hidesilidebar(){
+    const slidebar = document.querySelector('.slidebar')
+    slidebar.style.display = "none"
+  }
+</script>
+</body>
+</html>
